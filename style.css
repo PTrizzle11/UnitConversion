@@ -1,0 +1,177 @@
+body {
+    background-color: black;
+    margin: 10px;
+}
+
+#home {
+    margin: -1cm -1cm 0 -1cm;
+    padding-bottom: 1cm;
+    padding-top: 2cm;
+    padding-bottom: 2cm;
+    background-color: #553592;
+}
+
+header {
+    font-size: 30px;
+    color: #CBC3E3;
+    float: left;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+.topdiv {
+    float: right;
+    padding-right: 20px;
+}
+
+.topmenu {
+    color: lightgray;
+    background-color: #553592;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 1px;
+    font-size:20px;
+    border: none;
+}
+
+.topmenu:hover {
+    color: white;
+    font-weight: bolder;
+    background-color: purple;
+    text-decoration: underline;
+}
+
+#all-conversion-sections {
+    display: grid;
+    justify-content: center;
+}
+
+#temperature {
+    display: grid;
+    align-content: center;
+}
+
+#weight {
+    display: grid;
+    align-content: center;
+}
+
+#distance {
+    display: grid;
+    align-content: center;
+}
+
+fieldset {
+    display: grid;
+    margin: 30px 40px 0 0;
+}
+
+figure {
+    float: left;
+    align-self: auto;
+    width: 200px;
+    height: 300px
+}
+
+aside {
+    text-align: center;
+    margin-right: 40px;
+} 
+
+img {
+    width: 200px;
+}
+
+figcaption {
+    color: black;
+    font-size: 17px;
+    text-align: center;
+}
+
+#temperature button {
+    font-size: 20px;
+    border: transparent;
+    width: fit-content;
+    background-color: lightgreen;
+    padding: 0 15px 0 15px;
+    border-radius: 40px;
+}
+
+#temperature button:hover {
+    cursor: pointer;
+}
+
+#weight button {
+    font-size: 20px;
+    border: transparent;
+    width: fit-content;
+    background-color: lightgreen;
+    padding: 0 15px 0 15px;
+    border-radius: 40px;
+}
+
+#weight button:hover {
+    cursor: pointer;
+}
+
+#distance button {
+    font-size: 20px;
+    border: transparent;
+    width: fit-content;
+    background-color: lightgreen;
+    padding: 0 15px 0 15px;
+    border-radius: 40px;
+}
+
+#weight button:hover {
+    cursor: pointer;
+}
+
+.b {
+    border-radius: 10px;
+    background-color: white;
+    width: 600px;
+    height: 400px;
+    margin: 25px 0 25px 0;
+    display: flex;
+    margin-left: 50px;
+}
+
+legend {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.b.temperature {
+    border-top: 20px solid green;
+}
+
+.b.weight {
+    border-top: 20px solid coral;
+}
+
+.b.distance {
+    border-top: 20px solid cyan;
+}
+
+.iconbutton {
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    background-color: cyan;
+    display: flex;
+    margin-bottom: 40px
+}
+
+.iconbutton img {
+    width: 30px;
+}
+
+footer {
+    background-color: lightpink;
+    margin-top: 20px;
+}
+
+
